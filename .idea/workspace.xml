@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58ba4946-3c28-4d67-b4b5-fea82a976638" name="변경" comment="feat: 전역예외처리 도입에 따른 controller와 service 파일 리팩터링">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/post/dto/response/FollowerGetResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/comment/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/comment/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/comment/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/comment/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/common/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/common/advice/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/follow/repository/FollowRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/follow/repository/FollowRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/like/controller/LikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/like/controller/LikeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/like/dto/LikeSaveResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/like/repository/LikeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/like/repository/LikeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/like/service/LikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/like/service/LikeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/post/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/post/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/post/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/post/repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/post/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spartanewsfeed/post/service/PostService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/leejiho-follow-api" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="31SU0d8gWIl12D3PIhwwnynFxHB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Gradle.spartaNewsfeed 빌드.executor": "Run",
+    "Gradle.소스 다운로드.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.SpartaNewsfeedApplication.executor": "Run",
+    "git-widget-placeholder": "feature/dev",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/jiho0/IdeaProjects/spartaNewsfeed",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SpartaNewsfeedApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spartaNewsfeed.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spartanewsfeed.SpartaNewsfeedApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="58ba4946-3c28-4d67-b4b5-fea82a976638" name="변경" comment="" />
+      <created>1755516746211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755516746211</updated>
+      <workItem from="1755516747367" duration="1744000" />
+      <workItem from="1755562997881" duration="11234000" />
+      <workItem from="1755592922773" duration="8027000" />
+      <workItem from="1755650124820" duration="8616000" />
+      <workItem from="1755679610532" duration="127000" />
+      <workItem from="1755679752023" duration="8015000" />
+      <workItem from="1755735794134" duration="19875000" />
+      <workItem from="1755820136234" duration="6307000" />
+      <workItem from="1755827280661" duration="3504000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: follow-팔로우 추가/삭제 기능 구현 (POST, DELETE)">
+      <option name="closed" value="true" />
+      <created>1755571397281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755571397281</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: users-follow 연관 관계 구현">
+      <option name="closed" value="true" />
+      <created>1755690006370</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755690006370</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 세션 인증을 적용하여 팔로우 기능 보안 강화 및 dto 수정">
+      <option name="closed" value="true" />
+      <created>1755744476145</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755744476146</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: 세션 인증을 적용하여 팔로우 기능 보안 강화 및 dto 수정">
+      <option name="closed" value="true" />
+      <created>1755744651201</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755744651201</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: 세션 인증을 적용하여 팔로우 기능 보안 강화 및 dto 수정">
+      <option name="closed" value="true" />
+      <created>1755745942055</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755745942055</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: 튜터님 피드백 반영(user entity onetomany 삭제 및 optional 삭제)">
+      <option name="closed" value="true" />
+      <created>1755764935652</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755764935652</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: 튜터님 피드백 반영(user entity onetomany 삭제 및 optional 삭제)">
+      <option name="closed" value="true" />
+      <created>1755765182261</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755765182261</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: gitignore 수정">
+      <option name="closed" value="true" />
+      <created>1755826951291</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755826951291</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: feature/dev로 부터 GlobalExceptionHandler 수정 및 다른 update 반영">
+      <option name="closed" value="true" />
+      <created>1755829144069</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755829144069</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: 전역예외처리 도입에 따른 controller와 service 파일 리팩터링">
+      <option name="closed" value="true" />
+      <created>1755829480163</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1755829480163</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/leejiho-follow-api" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: follow-팔로우 추가/삭제 기능 구현 (POST, DELETE)" />
+    <MESSAGE value="feat: users-follow 연관 관계 구현" />
+    <MESSAGE value="feat: 세션 인증을 적용하여 팔로우 기능 보안 강화 및 dto 수정" />
+    <MESSAGE value="feat: 튜터님 피드백 반영(user entity onetomany 삭제 및 optional 삭제)" />
+    <MESSAGE value="feat: gitignore 수정" />
+    <MESSAGE value="feat: feature/dev로 부터 GlobalExceptionHandler 수정 및 다른 update 반영" />
+    <MESSAGE value="feat: 전역예외처리 도입에 따른 controller와 service 파일 리팩터링" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 전역예외처리 도입에 따른 controller와 service 파일 리팩터링" />
+  </component>
+</project>
